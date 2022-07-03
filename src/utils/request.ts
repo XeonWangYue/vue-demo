@@ -12,7 +12,6 @@ import { ElMessage } from "element-plus";
 export function request(config: AxiosRequestConfig<any>) {
     return new Promise((resolve, reject) => {
 
-
         //创建axios实例
         const instance = axios.create({
             timeout: 10000,
